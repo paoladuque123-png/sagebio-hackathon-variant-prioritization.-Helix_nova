@@ -1,0 +1,12 @@
+# Environment for duplicate marking, BQSR and variant calling (steps 3–6)
+# Picard, GATK4 and OpenJDK versions match the original server env "Picard".
+# Create with: conda env create -f envs/gatk_vcf.yml
+name: gatk_vcf
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - picard=3.1.1
+  - gatk4=4.6.1.0
+  - openjdk=17.0.10
+  - samtools=1.18

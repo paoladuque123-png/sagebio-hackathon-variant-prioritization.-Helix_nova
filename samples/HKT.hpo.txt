@@ -1,0 +1,9 @@
+# Proband HKT — HPO terms provided with the Hackathon case
+HP:0004322 Short stature
+HP:0000121 Nephrocalcinosis
+HP:0003202 Skeletal muscle atrophy
+HP:0002859 Rhabdomyosarcoma
+HP:0001508 Failure to thrive
+HP:0001622 Premature birth
+HP:0200067 Recurrent spontaneous abortion
+HP:0001518 Small for gestational age

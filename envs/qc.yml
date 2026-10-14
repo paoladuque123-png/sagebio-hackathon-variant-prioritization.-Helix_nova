@@ -1,0 +1,10 @@
+# Environment for read QC and trimming (steps 0–1)
+# Create with: conda env create -f envs/qc.yml
+# Versions match the original server env "fastqc".
+name: qc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastqc=0.12.1
+  - fastp=0.23.4

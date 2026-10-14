@@ -1,0 +1,14 @@
+# Environment for local variant annotation and prioritization (steps 7–9)
+# Versions match the original server env "vep_env". The VEP cache version must match
+# the ensembl-vep release (VEP_CACHE_VERSION=115 in config).
+# Create with: conda env create -f envs/vep.yml
+name: vep_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - ensembl-vep=115.2
+  - perl-bioperl=1.7.8
+  - htslib=1.21
+  - bcftools=1.21
+  - python=3.12.3

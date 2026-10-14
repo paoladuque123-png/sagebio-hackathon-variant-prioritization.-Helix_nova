@@ -1,0 +1,12 @@
+# Environment for alignment (step 2)
+# Versions match the original server env "ancestry"
+# (htslib 1.17 was also present there; left unpinned to let conda resolve it with samtools 1.18).
+# Create with: conda env create -f envs/align.yml
+name: align
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bwa=0.7.17
+  - samtools=1.18
+  - htslib
